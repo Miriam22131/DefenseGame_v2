@@ -13,7 +13,7 @@ public class PlacedBuildingBase : MonoBehaviour
 
     private void Start()
     {
-        _currentHp = ScriptedObjectData.MaxHp[0];
+       // _currentHp = ScriptedObjectData.MaxHp[0];
         _buildingLevel = 1;
     }
 

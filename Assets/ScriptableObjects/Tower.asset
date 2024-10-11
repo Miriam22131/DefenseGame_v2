@@ -9,12 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbc4124469f4c4814b0cc7d28e7cf43a, type: 3}
+  m_Script: {fileID: 11500000, guid: 2d216b5e5ed9dd14192147de8f9765b0, type: 3}
   m_Name: Tower
   m_EditorClassIdentifier: 
-  _maxHp: c8000000
-  _armor: 5
-  _buildingGhostPrefab: {fileID: 7270855514553659466, guid: 24803ca65ed994f2980c69a2c989645e, type: 3}
-  _buildingPlacedPrefab: {fileID: 0}
-  _buildingSprite: {fileID: 0}
+  _data: []
+  _maxHp: 
+  _armor: 0
+  _buildingGhostPrefab: {fileID: 1008542078145620786, guid: cfff2f67811eb4e40b1cede628dafeb4, type: 3}
+  _buildingPlacedPrefab: {fileID: 1008542078145620786, guid: cfff2f67811eb4e40b1cede628dafeb4, type: 3}
+  _buildingSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   _kindOfStructure: 0

@@ -20,4 +20,5 @@ public class SelectBuildingButton : MonoBehaviour
     {
         _manager.OnNewBuildingSelected(_data);
     }
+
 }

@@ -336,9 +336,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 9202946635052520821}
-        m_TargetAssemblyTypeName: SelectBuildingButton, Assembly-CSharp
-        m_MethodName: OnButtonSelected
+      - m_Target: {fileID: 6120088786159844938}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
+        m_MethodName: Select
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

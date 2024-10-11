@@ -21,4 +21,11 @@ public class SelectBuildingButton : MonoBehaviour
         _manager.OnNewBuildingSelected(_data);
     }
 
+    public class ArcherTower : PlacedBuildingBase
+    {
+        [SerializeField] private float Range = 30f;
+
+    }
+
+
 }

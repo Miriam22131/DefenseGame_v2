@@ -26,6 +26,4 @@ public class SelectBuildingButton : MonoBehaviour
         [SerializeField] private float Range = 30f;
 
     }
-
-
 }

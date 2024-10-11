@@ -956,6 +956,11 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1 &428449102 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 853400040715166387, guid: ad3205db85b06ab45853c51381df4b99, type: 3}
+  m_PrefabInstance: {fileID: 1347841332}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &428449103 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2361848155015933303, guid: ad3205db85b06ab45853c51381df4b99, type: 3}
@@ -6492,19 +6497,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6120088786159844938, guid: ad3205db85b06ab45853c51381df4b99, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6120088786159844938, guid: ad3205db85b06ab45853c51381df4b99, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1350605252}
+      objectReference: {fileID: 1362675950}
     - target: {fileID: 6120088786159844938, guid: ad3205db85b06ab45853c51381df4b99, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6120088786159844938, guid: ad3205db85b06ab45853c51381df4b99, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: TogglePlacement
       objectReference: {fileID: 0}
     - target: {fileID: 6120088786159844938, guid: ad3205db85b06ab45853c51381df4b99, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -6512,11 +6517,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6120088786159844938, guid: ad3205db85b06ab45853c51381df4b99, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6120088786159844938, guid: ad3205db85b06ab45853c51381df4b99, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: BuildingData, Assembly-CSharp
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 9202946635052520821, guid: ad3205db85b06ab45853c51381df4b99, type: 3}
       propertyPath: BuildingSprite
@@ -6980,7 +6985,7 @@ PrefabInstance:
     - target: {fileID: 6120088786159844938, guid: ad3205db85b06ab45853c51381df4b99, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1076757298}
+      objectReference: {fileID: 428449102}
     - target: {fileID: 6120088786159844938, guid: ad3205db85b06ab45853c51381df4b99, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: 
@@ -7000,11 +7005,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad3205db85b06ab45853c51381df4b99, type: 3}
---- !u!1 &1350605252 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 853400040715166387, guid: ad3205db85b06ab45853c51381df4b99, type: 3}
-  m_PrefabInstance: {fileID: 1134854442}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1350605253 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2361848155015933303, guid: ad3205db85b06ab45853c51381df4b99, type: 3}

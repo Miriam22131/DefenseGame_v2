@@ -9,13 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d216b5e5ed9dd14192147de8f9765b0, type: 3}
+  m_Script: {fileID: 11500000, guid: ae12f0755f15ee449858d82c3799ba66, type: 3}
   m_Name: TownCenter
   m_EditorClassIdentifier: 
-  _data: []
-  _maxHp: 
-  _armor: 0
-  _buildingGhostPrefab: {fileID: 1037984247, guid: ccace17414523d340ad8b418707e58ac, type: 3}
-  _buildingPlacedPrefab: {fileID: 9104173931004687256, guid: 175f85191409d0e4f8b838111f722a0b, type: 3}
-  _buildingSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  _kindOfStructure: 0

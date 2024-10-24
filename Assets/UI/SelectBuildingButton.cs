@@ -1,29 +1,22 @@
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class SelectBuildingButton : MonoBehaviour
-{
-    [SerializeField] private Image BuildingSprite;
-
-    private BuildingData _data;
-    private BuildingPlacementManager _manager;
-
-    public void Setup(BuildingData data, BuildingPlacementManager manager)
+ public class Example : MonoBehaviour, IPointerClickHandler
+ {
+     //Detect if a click occurs
+     public void OnPointerClick(PointerEventData pointerEventData)
     {
-        _data = data;
-        _manager = manager;
-        // setup ui of the button
-        BuildingSprite.sprite = data.BuildingSprite;
-    }
+             //Use this to tell when the user right-clicks on the Button
+         if (pointerEventData.button == PointerEventData.InputButton.Right)
+       {
+             //Output to console the clicked GameObject's name and the following message. You can replace this with your own actions for when clicking the GameObject.
+             Debug.Log(name + " Game Object Right Clicked!");
+         }
 
-    public void OnButtonSelected()
-    {
-        _manager.OnNewBuildingSelected(_data);
+         //Use this to tell when the user left-clicks on the Button
+         if (pointerEventData.button == PointerEventData.InputButton.Left)
+        {
+            Debug.Log(name + " Game Object Left Clicked!");
+        }
     }
-
-    public class ArcherTower : PlacedBuildingBase
-    {
-        [SerializeField] private float Range = 30f;
-
-    }
-}
+ }

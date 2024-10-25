@@ -16,7 +16,7 @@ public class Player
         _playerIndex = playerIndex;
         _storedPower = 0;
 
-        _buildingManager = new PlayerBuildingManager(this);
+       // _buildingManager = new PlayerBuildingManager(this);
     }
 
     public void ResourceGain(float gain)

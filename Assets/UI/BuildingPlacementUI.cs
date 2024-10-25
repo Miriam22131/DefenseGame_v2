@@ -1,21 +1,20 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class BuildingPlacementUI : MonoBehaviour
 {
-    [SerializeField] private BuildingPlacementManager _buildingPlacementManager;
+    [FormerlySerializedAs("_buildingPlacementManager")] [SerializeField] private BuildingPlacementManager BuildingPlacementManager;
 
     [SerializeField] private SelectBuildingButton SelectBuildingButton;
     [SerializeField] private Transform ScrollRectContent;
 
     private void Start()
     {
-       // foreach(var building in _buildingPlacementManager.AllBuildings.Data)
+        foreach (var BuildingData in BuildingPlacementManager.AllBuildings.DataList)
         {
             SelectBuildingButton button = Instantiate(
-            SelectBuildingButton, ScrollRectContent);
-            button.Setup(BuildingPlacementUI, _buildingPlacementManager);;
+                SelectBuildingButton, ScrollRectContent);
+            button.Setup(BuildingData, BuildingPlacementManager);
         }
     }
-
-
 }

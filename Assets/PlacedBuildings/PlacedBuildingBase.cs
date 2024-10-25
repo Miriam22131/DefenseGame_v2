@@ -26,7 +26,7 @@ public class PlacedBuildingBase : MonoBehaviour
 
     public void CalculateDamage(int damageReceived)
     {
-        damageReceived -= ScriptedObjectData.Armor;
+       
         TakeDamage(damageReceived);
     }
     

@@ -4,10 +4,12 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - _allBuildingData: {fileID: 11400000, guid: 01bf231884e703d428cfc4e2421371ab, type: 2}
-  - _placementParticle: {instanceID: 0}
-  - _canPlaceMaterial: {instanceID: 0}
-  - _cannotPlaceMaterial: {instanceID: 0}
+  - AllBuildingData: {fileID: 11400000, guid: 4dc057d085e3c6347a674505bace8981, type: 2}
+  - PlacementParticle: {instanceID: 0}
+  - CanPlaceMaterial: {fileID: 2100000, guid: 80ffc06a0ef0e33429ecd4401e8a066a, type: 2}
+  - CannotPlaceMaterial: {fileID: 2100000, guid: ac1b716010b280644adcf37f483221f8, type: 2}
+  - DismantleUI: {instanceID: 0}
+  - GameManager: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

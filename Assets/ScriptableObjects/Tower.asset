@@ -12,3 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae12f0755f15ee449858d82c3799ba66, type: 3}
   m_Name: Tower
   m_EditorClassIdentifier: 
+  MaxHp: 
+  Armor: 0
+  BuildingGhostPrefab: {fileID: 1915596155084330893, guid: 9c090db9e060dc4468e6ed4e41e7dedd, type: 3}
+  BuildingPlacedPrefab: {fileID: 0}
+  BuildingSprite: {fileID: 21300000, guid: db64137a503338741b3c9b53300326ae, type: 3}
+  KindOfStructure: 3
+  BuildingName: Tower

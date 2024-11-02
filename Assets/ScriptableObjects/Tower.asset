@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHp: 
   Armor: 0
-  BuildingGhostPrefab: {fileID: 1915596155084330893, guid: 9c090db9e060dc4468e6ed4e41e7dedd, type: 3}
-  BuildingPlacedPrefab: {fileID: 0}
+  BuildingGhostPrefab: {fileID: 6369266610660843138, guid: 3607a3821b895e942b349db22b30a074, type: 3}
+  BuildingPlacedPrefab: {fileID: 4450510067612245212, guid: 551d04953207ae7439603c4c311a4132, type: 3}
   BuildingSprite: {fileID: 21300000, guid: db64137a503338741b3c9b53300326ae, type: 3}
   KindOfStructure: 3
   BuildingName: Tower

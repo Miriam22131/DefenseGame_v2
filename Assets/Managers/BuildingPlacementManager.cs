@@ -78,26 +78,29 @@ public class BuildingPlacementManager : MonoBehaviour
             else
             {
                 _placementGhost = Instantiate(_buildingToPlace.BuildingGhost, transform);
+                
                 _ghostObjects.Add(_buildingToPlace.BuildingGhost.name, _placementGhost);
                 ValidPlacement();
             }
-          
+
+            var pos = GameManager.GameGrid.GetCellWorldCenter(hitInfo.point);
+
+            _placementGhost.transform.position = pos;
 
             if (Input.GetMouseButtonDown(0))
             {
-                
+                PlaceBuilding(pos);
             }
         }
     }
-
     /// <summary>
     ///     Places a building at the designated location
     /// </summary>
     /// <param name="position"></param>
-    private void PlaceBuilding(Vector3 position)
+    public void PlaceBuilding(Vector3 position)
     {
-        PlacementParticle.transform.position = position;
-        PlacementParticle.Play();
+        //PlacementParticle.transform.position = position;
+        //PlacementParticle.Play();
 
         var placedBuilding = Instantiate<PlacedBuildingBase>(_buildingToPlace.BuildingPlacedBase, position, Quaternion.identity);
 
@@ -107,6 +110,13 @@ public class BuildingPlacementManager : MonoBehaviour
         _placementGhost.SetActive(false);
         _placementGhost = null;
         _buildingToPlace = null;
+    }
+
+
+
+    public void TestFunction()
+    {
+
     }
 
     private void InvalidPlacement()

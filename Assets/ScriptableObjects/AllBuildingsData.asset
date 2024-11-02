@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d216b5e5ed9dd14192147de8f9765b0, type: 3}
   m_Name: AllBuildingsData
   m_EditorClassIdentifier: 
+  _data:
+  - {fileID: 11400000, guid: 01bf231884e703d428cfc4e2421371ab, type: 2}
+  - {fileID: 11400000, guid: 3e1621da854f3c94e80cf40bd3e952ee, type: 2}

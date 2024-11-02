@@ -16,17 +16,24 @@ public class GameManager : MonoBehaviour
     [FormerlySerializedAs("_gridHeight")] [SerializeField] private int GridHeight = 10;
     [FormerlySerializedAs("_cellSize")] [SerializeField] private int CellSize = 10;
     [FormerlySerializedAs("_cellTickRate")] [SerializeField] private float CellTickRate;
- 
+
+    private Grid _gameGrid;
+    public Grid GameGrid => _gameGrid;
 
     private SortedList<int, Player> _playerController = new();
 
     private delegate void DisableUI();
     private DisableUI _toggleDelegate;
 
+    void Awake()
+    {
+        _gameGrid = new Grid(GridWidth, GridHeight, CellSize, CellTickRate, this);
+    }
+
 
     private void Update()
     {
-        if (Input.GetButtonDown("ToggleUI"))
+        if (Input.GetButtonDown("Submit"))
         {
             _toggleDelegate.Invoke();
         }

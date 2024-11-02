@@ -1541,9 +1541,8 @@ GameObject:
   - component: {fileID: 9104173931004194744}
   - component: {fileID: 9104173931003391896}
   - component: {fileID: 9104173931002424664}
-  - component: {fileID: 4687202106815895955}
   m_Layer: 6
-  m_Name: WinterTower_v2_Blue
+  m_Name: WinterTower_v2_Blue Ghost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1624,21 +1623,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &4687202106815895955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9104173931004687256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ce64f199c2d8394c827a54f8dc2e11c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ScriptedObjectData: {fileID: 11400000, guid: 3e1621da854f3c94e80cf40bd3e952ee, type: 2}
-  UnitToSpawn: {fileID: 1008542078145620786, guid: cfff2f67811eb4e40b1cede628dafeb4, type: 3}
-  PointToSpawnAt: {fileID: 2317302435284446628}
 --- !u!1 &9120627099008135290
 GameObject:
   m_ObjectHideFlags: 0

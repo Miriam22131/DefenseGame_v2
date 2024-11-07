@@ -9,5 +9,6 @@ public class TownCenter : PlacedBuildingBase
     public void SpawnNewUnit()
     {
         Instantiate(UnitToSpawn, PointToSpawnAt);
+
     }
 }

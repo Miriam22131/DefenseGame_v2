@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae12f0755f15ee449858d82c3799ba66, type: 3}
+  m_Name: Catapult
+  m_EditorClassIdentifier: 
+  MaxHp: 
+  Armor: 0
+  BuildingGhostPrefab: {fileID: 7270396419502794083, guid: e09c43c4dd9ac80499cd9faa1dfb3d63, type: 3}
+  BuildingPlacedPrefab: {fileID: 0}
+  BuildingSprite: {fileID: 21300000, guid: 724ffa5dfa2206d4fb79f54b8dd16ad8, type: 3}
+  KindOfStructure: 3
+  BuildingName: Catapult

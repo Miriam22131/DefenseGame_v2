@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SnowPile : MonoBehaviour
+public class SnowPile : PlacedBuildingBase
 {
     public float slowdownFactor = 0.5f;
     public float slowdownDuration = 2f;

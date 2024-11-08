@@ -15,7 +15,7 @@ MonoBehaviour:
   MaxHp: 
   Armor: 0
   BuildingGhostPrefab: {fileID: 9072473727846509251, guid: fef3e9dfbc9354e4c880f33ec0873b12, type: 3}
-  BuildingPlacedPrefab: {fileID: 0}
+  BuildingPlacedPrefab: {fileID: -1415924335606034082, guid: fef3e9dfbc9354e4c880f33ec0873b12, type: 3}
   BuildingSprite: {fileID: 21300000, guid: 35957c85b74175642aeecb15f3d975aa, type: 3}
   KindOfStructure: 3
   BuildingName: Snowpile

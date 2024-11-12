@@ -7360,7 +7360,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GroundMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
 --- !u!4 &510918811
 Transform:
   m_ObjectHideFlags: 0
@@ -14263,6 +14263,9 @@ GameObject:
   - component: {fileID: 1134170743}
   - component: {fileID: 1134170745}
   - component: {fileID: 1134170744}
+  - component: {fileID: 1134170746}
+  - component: {fileID: 1134170747}
+  - component: {fileID: 1134170748}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -14332,6 +14335,43 @@ MonoBehaviour:
   GridHeight: 10
   CellSize: 10
   CellTickRate: 0
+--- !u!114 &1134170746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134170741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67c3e4f5c26bbf14088af46e234e71ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1134170747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134170741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e692158f0af81c4ba2f0a59e320ea37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Parent: {fileID: 0}
+--- !u!114 &1134170748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134170741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67c3e4f5c26bbf14088af46e234e71ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1134175506 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1021616417, guid: 61f87bf1de619b4439fa42f930d90883, type: 3}

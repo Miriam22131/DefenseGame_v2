@@ -11,11 +11,11 @@ public class AStarManager : MonoBehaviour
         instance = this;
     }
 
-    public List<Node> GeneratePath(Node start, Node end)
+    public List<Node> GeneratePath(Node start, Node end, List<Node> nodeList)
     {
         List<Node> openSet = new List<Node>();
 
-        foreach(Node n in FindObjectsOfType<Node>())
+        foreach(Node n in nodeList)
         {
             n.gScore = float.MaxValue;
         }

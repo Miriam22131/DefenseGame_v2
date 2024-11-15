@@ -21,6 +21,18 @@ public class Grid
     //private PathfindingWithAStar _pathfinder;
     //public PathfindingWithAStar Pathfinder => _pathfinder;
 
+    public Node nodePrefab;
+    public Node cameFrom;
+    public List<Node> connections;
+
+    public float gScore;
+    public float hScore;
+
+    public float FScore()
+    {
+        return gScore + hScore;
+    }
+
     public Grid(int mapWidth, int mapHeight, int cellSize, float tickRate, GameManager gameManager)
     {
         _width = mapWidth;
@@ -50,6 +62,8 @@ public class Grid
                 var cellId = new Vector2Int(i, j);
 
                 //_grid.Add(cellId, new GridCell(this));
+
+                EpicNodeMaker.Instance.AddNewNode(new Vector3(posX, 0, posZ));
             }
             posX += size;
         }
